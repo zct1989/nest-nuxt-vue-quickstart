@@ -1,26 +1,26 @@
 {
-  "include": ["src/**/*", "typings/**/*.d.ts"],
-  "exclude": ["node_modules", "**/*.spec.ts"],
-  "compilerOptions": {
-    "target": "esnext",
-    "moduleResolution": "node",
-    "lib": ["esnext", "esnext.asynciterable", "dom"],
-    "allowJs": true,
-    "strict": true,
-    "noEmit": true,
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "strictPropertyInitialization": false,
-    "noImplicitAny": false,
-    "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./",
-    "paths": {
-      "~/*": ["./src/client/*"],
-      "@/*": ["./src/client/*"]
-    },
-    "types": ["@types/node", "@nuxt/types"]
-  }
+    "include": ["src/**/*", "typings/**/*.d.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"],
+    "compilerOptions": {
+        "target": "esnext",
+        "moduleResolution": "node",
+        "lib": ["esnext", "esnext.asynciterable", "dom"],
+        "allowJs": true,
+        "strict": true,
+        "noEmit": true,
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "paths": {
+            "~/*": ["./src/client/*"],
+            "@/*": ["./src/client/*"]
+        },
+        "types": ["@types/node", "@nuxt/types"]
+    }
 }
